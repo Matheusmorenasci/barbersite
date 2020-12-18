@@ -1,4 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/*
+CSS RESET
+http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -77,7 +79,7 @@ body{
 .logoheader{
 	width: 100%;
 	min-height: 620px;
-	background: url(../Images/utensílios.jpg);
+	background: url(../images/utensílios.jpg);
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -88,7 +90,7 @@ body{
 #sobre{
 	width: 100%;
 	height: 440px;
-	background-image: url(../Images/barbeariabgopacity.jpg);
+	background-image: url(../images/barbeariabgopacity.jpg);
 	background-repeat: no-repeat;
 	background-color: #191919;
 	background-position: 50% 80%;
