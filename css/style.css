@@ -1,6 +1,4 @@
-/*
-CSS RESET
-http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -97,6 +95,10 @@ body{
 	text-align: center;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
+}
+
+#ouarraste{
+	width: 280px;
 }
 
 p{
@@ -231,7 +233,7 @@ mark{
 	display: inline-block;
 	margin-top: 20px;
 	background-image: url(../images/cortes/corte4.jpg);
-	background-position: 0% 40%;
+	background-position: 50% 40%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 10px;
@@ -345,10 +347,32 @@ footer{
 	padding-top: 35px;
 }
 
+	
+/* PHONES 280 */
+@media screen and (max-width: 280px){
+	
+	#logotop{
+		width: 260px;
 
-/* TABLETS 600PX TABLETS 600PX TABLETS 600PX TABLETS 600PX TABLETS 600PX TABLETS 600PX TABLETS 600PX */
-@media screen and (min-width: 600px){
+	}
 
+	#ouarraste{
+		width: 260px;
+	}
+
+	p{
+
+		width: 240px;
+	}
+	
+	ul{
+		width: 260px;
+	}
+
+}
+
+/* TABLETS 541*/
+@media screen and (min-width: 541px){
 
 #corte1, #corte2 {
 	float: left;
@@ -377,7 +401,8 @@ footer{
 .contato1, .contato2 {
 	float: left;
 	width: 45%;
-	margin-left: 3.5%;
+	margin-left: 3%;
+	text-align: center;
 }
 
 p{
@@ -412,108 +437,241 @@ footer{
 
 
 }
+/* TABLETS ABOVE */
 
+@media screen and (min-width: 600px){
+
+
+	#corte1, #corte2 {
+		float: left;
+		width: 45%;
+		margin-left: 3.5%;
+	}
+	
+	#corte3, #corte4 {
+		float: left;
+		width: 45%;
+		margin-left: 3.5%;
+	}
+	
+	#barber1, #barber2 {
+		float: left;
+		width: 45%;
+		margin-left: 3.5%;
+	}
+	
+	#barber3, #barber4 {
+		float: left;
+		width: 45%;
+		margin-left: 3.5%;
+	}
+	
+	.contato1, .contato2 {
+		float: left;
+		width: 45%;
+		margin-left: 3.5%;
+	}
+	
+	p{
+		font-size: 20px;
+	}
+	
+	ul{
+		font-size: 20px;
+	}
+	
+	#endereço{
+		padding-top: 175px;
+	}
+	
+	#acreditamos{
+		font-size: 22px;
+	}
+	
+	#cortes{
+		text-align: center;
+		height: 900px;
+	}
+	
+	#barbeiros{
+		text-align: center;
+		height: 900px;
+	}
+	
+	footer{
+		padding-top: 100px;
+	}
+	
+	
+	}
 /* DESKTOPS 992PX DESKTOPS 992PX DESKTOPS 992PX DESKTOPS 992PX DESKTOPS 992PX DESKTOPS 992PX DESKTOPS 992PX DESKTOPS 992PX */
 
 @media screen and (min-width: 992px){
 
-.nomebarber{
-	text-align: left;
-	font-size: 25px;
-	position: relative;
-	top: 265px;
-	right: -15px;
-	font-family: Helvetica;
-	font-weight: 700;
-	text-transform: uppercase;
-	text-shadow: 0px 1px 2px black;
-}
 
-#corte1, #corte2, #corte3, #corte4 {
-	float: left;
-	width: 20%;
-	margin-left: 4%;
-}
+	#corte1, #corte2 {
+		float: left;
+		width: 45%;
+		margin-left: 3.5%;
+	}
+	
+	#corte3, #corte4 {
+		float: left;
+		width: 45%;
+		margin-left: 3.5%;
+	}
+	
+	#barber1, #barber2 {
+		float: left;
+		width: 45%;
+		margin-left: 3.5%;
+	}
+	
+	#barber3, #barber4 {
+		float: left;
+		width: 45%;
+		margin-left: 3.5%;
+	}
+	
+	.contato1, .contato2 {
+		float: left;
+		width: 45%;
+		margin-left: 3.5%;
+	}
+	
+	p{
+		font-size: 20px;
+	}
+	
+	ul{
+		font-size: 20px;
+	}
+	
+	#endereço{
+		padding-top: 175px;
+	}
+	
+	#acreditamos{
+		font-size: 22px;
+	}
+	
+	#cortes{
+		text-align: center;
+		height: 900px;
+	}
+	
+	#barbeiros{
+		text-align: center;
+		height: 900px;
+	}
+	
+	footer{
+		padding-top: 100px;
+	}
+	
+	
+	}
+/* DESKTOPS 1350*/
 
-#barber1, #barber2, #barber3, #barber4 {
-	float: left;
-	width: 20%;
-	margin-left: 4%;
-}
+@media screen and (min-width: 1000px){
 
-
-.contato1, .contato2 {
-	padding-top: 20px;
-	float: left;
-	width: 45%;
-	margin-left: 3.5%;
-}
-
-ul{
-	font-size: 22px;
-}
-
-#endereço{
-	padding-top: 240px;
-}
-
-#acreditamos{
-	font-size: 26px;
-	width: 350px;
-}
-
-iframe{
-	height: 500px;
-}
-
-
-p{
-	font-family: customserifitalic;
-	font-size: 22px;
-	color: #D6D6D6;
-	margin: auto;
-	margin-top: 20px;
-	line-height: 1.5em;
-	font-weight: 500;
-	text-align: center;
-	width: 300px;
-	text-shadow: 0px 2px 0px black;
-}
-
-#cortestexto {
-	width: 600px;
-	margin-bottom: 10px;
-}
-
-#barbeirostexto{
-	width: 600px;
-	margin-bottom: 10px;
-}
-
-#cortes{
-	text-align: center;
-	height: 630px;
-}
-
-#barbeiros{
-	text-align: center;
-	height: 630px;
-}
-
-#sobre{
-	height: 660px;
-}
-
-h2 {
-	font-size: 57px;
-}
-
-h1 {
-	font-size: 62px;
-}
-
-#bemvindoabarbeariah1 {
-	font-size: 92px;
-}
-
-}
+	.nomebarber{
+		text-align: left;
+		font-size: 25px;
+		position: relative;
+		top: 265px;
+		right: -15px;
+		font-family: Helvetica;
+		font-weight: 700;
+		text-transform: uppercase;
+		text-shadow: 0px 1px 2px black;
+	}
+	
+	#corte1, #corte2, #corte3, #corte4 {
+		float: left;
+		width: 20%;
+		margin-left: 4%;
+	}
+	
+	#barber1, #barber2, #barber3, #barber4 {
+		float: left;
+		width: 20%;
+		margin-left: 4%;
+	}
+	
+	
+	.contato1, .contato2 {
+		padding-top: 20px;
+		float: left;
+		width: 45%;
+		margin-left: 3.5%;
+	}
+	
+	ul{
+		font-size: 22px;
+	}
+	
+	#endereço{
+		padding-top: 240px;
+	}
+	
+	#acreditamos{
+		font-size: 26px;
+		width: 350px;
+	}
+	
+	iframe{
+		height: 500px;
+	}
+	
+	
+	p{
+		font-family: customserifitalic;
+		font-size: 22px;
+		color: #D6D6D6;
+		margin: auto;
+		margin-top: 20px;
+		line-height: 1.5em;
+		font-weight: 500;
+		text-align: center;
+		width: 300px;
+		text-shadow: 0px 2px 0px black;
+	}
+	
+	#cortestexto {
+		width: 600px;
+		margin-bottom: 10px;
+	}
+	
+	#barbeirostexto{
+		width: 600px;
+		margin-bottom: 10px;
+	}
+	
+	#cortes{
+		text-align: center;
+		height: 630px;
+	}
+	
+	#barbeiros{
+		text-align: center;
+		height: 630px;
+	}
+	
+	#sobre{
+		height: 660px;
+	}
+	
+	h2 {
+		font-size: 57px;
+	}
+	
+	h1 {
+		font-size: 62px;
+	}
+	
+	#bemvindoabarbeariah1 {
+		font-size: 92px;
+	}
+	
+	}
